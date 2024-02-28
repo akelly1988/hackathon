@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.heading-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+body {
+  background-image: url(./images/bricklayers-arms-pic.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-image: url(./images/physical-world-map.jpg);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#options {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+  display: inline-block;
+}
+
+.wrapper-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jokeGif {
+  display: none;
+}
+
+p {
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+.getJoke {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.getJoke:hover {
+  background-color: #45a049;
+}
+
+.jokeText {
+  display: inline-block;
+}

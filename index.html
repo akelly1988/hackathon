@@ -5,7 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dad Jokes</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./jokes.js"></script>
+    <script src="./jokes.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="heading-container">
+        <h1 class="heading">Shoreditch's BEST "Dad Joke" generator</h1>
+        <h2 class="subheading">Where dads and jokes meet</h2>
+      </div>
+      <form class="form">
+        <label class="form__label" for="options">Why are you here?</label>
+        <select id="options" name="options" size="3" multiple>
+          <option value="I want to impress my friends">
+            I want to impress my friends
+          </option>
+          <option value="I want to embarass my partner and kids">
+            I want to embarass my partner and kids
+          </option>
+          <option value="I want to make fun of people who like dad jokes">
+            I want to make fun of people who like dad jokes
+          </option>
+          <input type="submit" />
+        </select>
+      </form>
+      <img src="./images/dadjokes.gif" alt="dad joke jar" class="jokeGif" />
+      <div class="wrapper-bottom">
+        <div class="joke">
+          <p>Jokes pending.....</p>
+        </div>
+        <button class="getJoke">
+          <span class="jokeText">Submit the form above to start</span>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
